@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        var num = 5;
+        /* var text = 자바스크립트; */
+
+
+        //Uncaught ReferenceError: 자바스크립트 is not defined
+        //at 5.19변수3.html:10:20 
+        //>자바스크립트가 정의되지 않았다.
+
+        var text = "자바스크립트";/* 따옴표써야함 원따옴표 쌍따옴표 둘다써도됨 */
+        var text2 = num + text;/* 타입이 다른 변수를 + 하면 연결됨 >연결연산자 라고함 */
+        console.log(num);
+        console.log(text);
+        console.log(text2);
+
+        document.write('<h2>'+text+'</h2>');
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
